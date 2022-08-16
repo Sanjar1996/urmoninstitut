@@ -13,8 +13,8 @@ SECRET_KEY = 'django-insecure-2jh9!1ja8dz8en+kpk91c3q_(&576wi3=39$y$3%sqkv)k0g=v
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
-# CSRF_TRUSTED_ORIGINS = ['https://*uts-servis.uz']
+ALLOWED_HOSTS = ['urmon-institut.uz', 'www.urmon-institut.uz']
+CSRF_TRUSTED_ORIGINS = ['https://*urmon-institut.uz']
 # Application definition
 
 INSTALLED_APPS = [
@@ -77,7 +77,7 @@ DATABASES = {
         'USER': 'urmoninstitut_user',
         'PASSWORD': 'urmoninstitut_pass',
         'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'PORT': '5433',
     }
 }
 
